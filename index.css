@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+}
+.bg-con{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+   width: 60vw;
+   height: 15vh;
+   /* border: 0.4rem solid black; */
+   text-align: center;
+
+}
+.p1{
+   text-align: center;
+    margin-top: 120px;
+    font-size:1.3vw ;
+    margin-bottom: -60px;
+}
+.con{
+    padding: 3%;
+    font-size: 200% ;
+    /* border: 0.4rem solid black; */
+    width: 50%;
+}
+.dash{
+    font-size: 200%;
+}
+.hd{
+    font-size: 3vw;
+    color: rgb(123, 184, 184);
+    text-align: center;
+    font-style: italic;
+    margin-top: 6px;
+    margin-bottom: -90px;
+}
+input{
+    height: 30%;
+    width: 55%;
+    font-size: 90%;
+    border: none;
+}
+.mCon{
+    display: flex;
+    justify-content: center;
+    background: url("images/st2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 60vw;
+    
+}
+.im1{
+    display: none;
+    height: 230px;
+    width: 15%;
+    margin-left: 25%;
+    margin-top: 8%;
+    
+}
+.divv{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color:black ;
+    background-color: aqua;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+}
+
+.sm-con1{
+    display: flex;
+    flex-direction: row;
+}
+.sm-con2{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.hide{
+    display: none;
+    text-align: center;
+    font-size: 3rem;
+    color: goldenrod;
+    text-shadow: 0.5rem 0.5rem 1.5rem rgb(200, 199, 199);
+}
+
+
