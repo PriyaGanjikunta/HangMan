@@ -30,17 +30,17 @@ btn.addEventListener("click",() => {
         hd1.innerText="Congratulations, your guess is correct!";
         im1.src="images/freee.jpg";
         im1.style.display="block";
-        im1.style.height="180px";
-        im1.style.width="130px";
-        im1.style.marginTop="29%";
-        im1.style.marginLeft="32%";   
+        im1.style.height="12rem";
+        im1.style.width="12.5rem";
+        im1.style.marginTop="13rem";
+        im1.style.marginLeft="34rem";   
         
     }else{
         hd.style.marginTop="4%";
-        hd1.innerText="Your guess is wrong";
+        hd1.innerText="Your guess is wrong!";
         im1.src="images/hang.jpg";
-        im1.style.marginLeft= "25%";
-        im1.style.marginTop= "8%";
+        im1.style.marginLeft= "29.5rem";
+        im1.style.marginTop= "4rem";
         hd1.style.display="block";
         im1.style.display="block";
     }

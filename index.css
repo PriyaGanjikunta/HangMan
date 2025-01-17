@@ -8,41 +8,39 @@ body{
 .bg-con{
     display: flex;
     flex-direction: column;
-    padding: 1%;
-   width: 60vw;
-   height: 15vh;
-   /* border: 0.4rem solid black; */
-   text-align: center;
+    width: 45rem;
+    height: 15rem;
+    text-align: center;
 
 }
 .p1{
-   text-align: center;
-    margin-top: 120px;
-    font-size:1.3vw ;
-    margin-bottom: -60px;
+    text-align: center;
+    margin-top: 9rem;
+    font-size:1.25rem ;
+    margin-bottom: 1rem;
 }
 .con{
-    padding: 3%;
-    font-size: 200% ;
-    /* border: 0.4rem solid black; */
-    width: 50%;
+    padding: 1.5rem;
+    font-size: 2.2rem ;
+    width: 20rem;
 }
 .dash{
-    font-size: 200%;
+    font-size: 4rem;
 }
 .hd{
-    font-size: 3vw;
+    font-size: 3rem;
     color: rgb(123, 184, 184);
     text-align: center;
     font-style: italic;
-    margin-top: 6px;
+    margin-top: 8px;
     margin-bottom: -90px;
 }
 input{
-    height: 30%;
-    width: 55%;
-    font-size: 90%;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2.3rem;
     border: none;
+    text-align: center;
 }
 .mCon{
     display: flex;
@@ -50,23 +48,23 @@ input{
     background: url("images/st2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 55vh;
-    width: 60vw;
+    height: 30rem;
+    width: 30rem;
     
 }
 .im1{
     display: none;
-    height: 230px;
-    width: 15%;
-    margin-left: 25%;
-    margin-top: 8%;
-    
+    height: 15rem;
+    width: 22rem;
+    margin-left: 29.5rem;
+    margin-top: 4rem;
+        
 }
 .divv{
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    height: 100vh;
+    width: cover;
+    height: cover;
     align-items: center;
     justify-content: center;
 }
@@ -84,7 +82,7 @@ input{
 }
 .sm-con2{
     display: flex;
-    gap: 60px;
+    gap: 6rem;
     justify-content: center;
 
 }
